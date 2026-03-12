@@ -11,8 +11,8 @@ This is the environment for a class project.
 ```
 ln /path/to/VLA_Star/experiments/unity_robot_run.sh /path/to/CastleGame_Data/Scripts/
 ```
-4. Assign the VLA_STAR_PATH environment variable to /path/to/VLA_Star
-4. Put OPENAI_API_KEY in your `.bashrc` or elsewhere.
+4. Assign the VLA_STAR_PATH environment variable to /path/to/VLA_Star. Currently, the only place I've found to put it is in .bashrc _before_ the non-interactive shell blocker.
+4. Put OPENAI_API_KEY in a similar place in `.bashrc` (security risk) or in /path/to/VLA_Star/private/api_keys/openai_api_key.
 
 ### Gameplay
 The goal is to get to the ATM machine at the center of the castle.
@@ -31,3 +31,4 @@ The agent can be configured by editting the architecture code:
 ```
 unity_robot_run.sh > unity_robot_phase.py > shop.instantiate_unity_robot() > ...
 ```
+
