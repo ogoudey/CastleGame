@@ -10,10 +10,10 @@ This is the environment for a class project.
 3. Link the agent to Unity with:
 ```
 mkdir /path/to/CastleGame_Data/Scripts
-ln /path/to/VLA_Star/experiments/unity_robot_run.sh /path/to/CastleGame_Data/Scripts/
+ln /path/to/VLA_Star/experiments/unity_robot_run.sh /path/to/CastleGame_Data/Scripts/ # (make sure it's executable)
 ```
 4. Assign the VLA_STAR_PATH environment variable to /path/to/VLA_Star. Currently, the only place I've found to put it is in .bashrc _before_ the non-interactive shell blocker.
-4. Put OPENAI_API_KEY in a similar place in `.bashrc` (security risk) or in /path/to/VLA_Star/private/api_keys/openai_api_key.
+5. Put OPENAI_API_KEY in a similar place in `.bashrc` (security risk) or in /path/to/VLA_Star/private/api_keys/openai_api_key.
 
 ### Gameplay
 The goal is to get to the ATM machine at the center of the castle.
