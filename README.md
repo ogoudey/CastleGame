@@ -9,6 +9,7 @@ This is the environment for a class project.
 2. Clone the [agent architecture](https://github.com/ogoudey/VLA_Star)
 3. Link the agent to Unity with:
 ```
+mkdir /path/to/CastleGame_Data/Scripts
 ln /path/to/VLA_Star/experiments/unity_robot_run.sh /path/to/CastleGame_Data/Scripts/
 ```
 4. Assign the VLA_STAR_PATH environment variable to /path/to/VLA_Star. Currently, the only place I've found to put it is in .bashrc _before_ the non-interactive shell blocker.
